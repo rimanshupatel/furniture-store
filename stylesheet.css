@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100;200;300;400;500&family=Lato:wght@100;300;400;700&family=Montserrat:wght@300;400;500;600;700&display=swap');
+/* font-family: 'Kumbh Sans', sans-serif;
+font-family: 'Lato', sans-serif;
+font-family: 'Montserrat', sans-serif; */
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    text-transform: capitalize;
+    list-style: none;
+}
+.flex{
+    display: flex;
+}
+.font-1{
+    font-family: 'Kumbh Sans', sans-serif
+}
+.font-2{
+    font-family: 'Lato', sans-serif;
+}
+.black-txt{
+    color: #3b2b2b;
+}
+.pink-bg{
+    background-color:#f9aab3!important;
+    
+}
+
+.nav{
+    display: flex;
+    padding: 25px 140px;
+    align-items: center;
+    background-color: white;
+    position: fixed;
+    z-index: 999;
+    box-shadow: 1px 1px 6px 2px lightgrey;
+    width: 100%;
+}
+.nav a:hover{
+   color: #000;
+   text-decoration: underline;
+   text-underline-offset: 7px;
+}
+.nav li a{
+    margin-left: 50px;
+    color: #000;
+    font-weight: 500;
+}
+.cart-icon{
+    display: flex;
+    align-items: center;
+    width: 10rem;
+    justify-content: space-between;
+}
+.home-sc{
+    text-align: center;
+    padding-top: 10rem;
+    padding-bottom: 4rem;
+}
+.container{
+    padding: 0 135px;
+}
+.home-sc h2{
+    font-size: 2.7rem;
+    font-weight: 400;
+    padding: 2rem 0;
+}
+.home-sc p{
+    padding: 0 18rem;
+    margin-bottom: 2rem;
+    line-height: 28px;
+}
+.btn{
+    padding: 1rem 3rem;
+    color: white;
+    font-weight: 500;
+    border-radius: 4px;
+    display: inline-block;
+}
+.home-sc a:hover{
+    background-color:#e9a5ad !important ;
+}
+@media only screen and (max-width: 400px) {
+    .container{
+        padding: 0 40px;
+    }
+    .home-sc h2 {
+     font-size: 2rem;
+    }
+    .home-sc p{
+        padding: 0 !important;
+    }
+  }
+.home-card{
+    display: flex;
+    justify-content: center;
+    margin-top: 10rem;
+}
+@media only screen and (max-width: 400px){
+    .home-card{
+        display: flex;
+        flex-direction: column;
+    }
+    .home-card img{
+        width: 18rem;
+        margin: 1rem 0;
+    }
+    .tb{
+        margin-top:0 !important;
+    }
+}
+.sc-margin{
+    margin: 4rem 0;
+}
+.row{
+    display: flex;
+    justify-content: center;
+}
+ .col{
+    width: 49.99%;
+}
+.sc-h5{
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 2rem;
+}
+.section-2 h2{
+    font-weight: 400;
+    font-size: 3rem;
+    width: 21rem;
+}
+.sc-p{
+    margin-bottom: 2rem;
+}
+@media only screen and (max-width: 400px){
+     .row{
+        flex-direction: column;
+    }
+    .section-2 h5{
+        text-align: center;
+    }
+    .section-2 h2{
+        font-size: 2rem;
+    }
+    .section-2 p{
+        width: 20rem;
+    }
+    .pd-0 {
+        padding: 0!important;
+    }
+}
+.section-3 h5{
+    font-size: 1.5rem;
+}
+.section-3 h2{
+    font-weight: 400;
+    font-size: 3rem;
+    width: 14rem;
+    margin-bottom: 2rem;
+}
+@media only screen and (max-width: 400px){
+
+    .section-3 p{
+        width: 19rem !important;
+    }
+    .section-3 img{
+        width: 19rem !important;
+    }
+}
+.section-4{
+    text-align: center;
+}
+.section-4 h3{
+    font-weight: 400;
+    font-size: 2rem;
+    margin: 4rem 0;
+}
+.sc-4-img{
+    padding: 0 2rem;
+}
+.sc-4-img img{
+    padding: 0 .5rem;
+}
+@media only screen and (max-width: 400px){
+    .sc-4-img{
+        padding: 0 !important;
+    }
+    .sc-4-img img{
+        margin: 1rem 0;
+    }
+}
+.section-5 h2{
+    font-size: 3rem;
+    font-weight: 400;
+    margin: 2rem 0;
+}
+.section-5 input{
+    height: 2.8rem;
+}
+.section-5 input,textarea{
+    background-color: #e3e3e3;
+    width: 100%;
+    outline: 0;
+    border: 0;
+    padding: 0 1rem;
+    margin: 1rem 0;
+}
+.section-5 textarea{
+    height: 8rem;
+}
+@media only screen and (max-width: 400px){
+    .section-5 h2{
+        font-size: 2.5rem;
+    }
+}
+.footer-img{
+    background-image: url('flower-bg.avif');
+}
+.footer-img{
+    height: 20rem;
+    background-position: center;
+    background-size: cover;
+}
+@media only screen and (max-width: 400px){
+    .rt-0{
+    padding-right: 0 !important;
+    }
+    form{
+    width: 14rem;
+    }
+    .footer-img{
+        height: 6rem;
+    }
+}
